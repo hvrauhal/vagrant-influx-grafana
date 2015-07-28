@@ -10,5 +10,5 @@ sudo /etc/init.d/nginx start
 echo installing grafana
 wget -q http://grafanarel.s3.amazonaws.com/grafana-1.8.0.tar.gz
 tar -xzvf grafana-1.8.0.tar.gz
-sudo mv grafana-1.8.0/* /usr/share/nginx/www/
-sudo cp /vagrant/config.grafana.js /usr/share/nginx/www/config.js
+sudo mv grafana-1.8.0/* /usr/share/nginx/html/
+sudo cp /vagrant/config.grafana.js /usr/share/nginx/html/config.js
